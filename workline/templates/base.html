@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{% static 'workline/bootstrap.min.css' %}">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'workline/default.css' %}">
+	
+	<title>{% block title %}base{% endblock %}</title>
+</head>
+<body>
+	{% block header %}
+		<div class="container head" >
+			<h1>Welcome!!</h1>
+		</div>
+	{% endblock %}
+</body>
+</html>

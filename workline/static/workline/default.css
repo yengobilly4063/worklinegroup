@@ -1,0 +1,12 @@
+body {
+	background-color: skyblue;
+	background: linear-gradient(to right, rgb(72, 193, 70), rgb(45, 145, 203), rgb(198, 0, 0), rgb(255, 108, 0) );
+	/*opacity: 0.5;*/
+}
+.head{
+	background-color: gray;
+	width:900px;
+	height:1000px;
+}
+
+
